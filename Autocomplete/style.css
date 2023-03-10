@@ -202,3 +202,14 @@ h1 {
   .button2:disabled {
     opacity: 0.4; 
   }
+
+  .icon {
+    position: absolute; 
+    bottom: 5px;
+    left: 210px; 
+    width: 30px; 
+    height: 24px; 
+    fill: #171A1FFF; /* neutral-900 */
+    border: none;
+    border-color: none;
+  }
