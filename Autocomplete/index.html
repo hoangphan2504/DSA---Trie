@@ -1,41 +1,43 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Demo</title>
-    <link rel="stylesheet" type="text/css" href="style.css"/>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>TRIE</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css"></link>
 </head>
-<body>
-    <h1>Heading</h1>
-    <div class="search-bar">
-        <input type="text" placeholder="Search">
-        <svg class="w-6 h-6" fill="#686583" id="Flat" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256.00098 256.00098">
-            <path d="M229.65137,218.34424l-43.22284-43.2229A92.11164,92.11164,0,1,0,175.114,186.43481l43.2229,43.2229a8.00018,8.00018,0,1,0,11.31446-11.31347ZM40,116a76,76,0,1,1,76,76A76.08614,76.08614,0,0,1,40,116Z"/>
-        </svg>
+  <body>
+    <h1 class="display-1">TRIE DEMO</h1>
+    <div class="input-icons">
+        <i class="fa fa-search icon "></i>
+        <input class="form-control form-control d-flex search" type="text" placeholder="Search" aria-label=".form-control-lg example">
     </div>
-
+    
     <div class="rectangle">
-        <div class="textbox">
-            <input type="text" placeholder="Input text">
-        </div>
-        <button class="button">Insert</button>
-        
-        <div class="rectangle_2">
-            <div class="checkbox">
-                <input type="checkbox" name="1">
-                <label for="1"> Select all</label><br>
+        <div class="mb-3">
+            <input type="email" class="form-control input" id="exampleFormControlInput1" placeholder="Input text">
+          </div>
+        <button type="button" class="btn btn-outline-success insert">Insert</button>
+        <div class="rectange_2">
+            <div class="form-check check">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                <label class="form-check-label" for="flexCheckDefault">
+                    Select all
+                </label>
             </div>
-            <button class="button2">Delete</button> 
+            
         </div>
-
-        <div>
-            <button class="icon"><svg class="w-6 h-6" fill="[object Object]" id="Flat" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
-                <path d="M141.65674,133.65674l-80,80a7.99984,7.99984,0,0,1-11.31348-11.31348L124.686,128,50.34326,53.65674A7.99984,7.99984,0,0,1,61.65674,42.34326l80,80A7.99915,7.99915,0,0,1,141.65674,133.65674Zm80-11.31348-80-80a7.99984,7.99984,0,0,0-11.31348,11.31348L204.686,128l-74.34278,74.34326a7.99984,7.99984,0,1,0,11.31348,11.31348l80-80A7.99915,7.99915,0,0,0,221.65674,122.34326Z"/>
-              </svg>
-              </button>
-        </div>
+        <button type="button" class="next-icon"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-arrow-right-circle-fill " viewBox="0 0 16 16">
+            <path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"/>
+          </svg></button>
+        
     </div>
-</body>
+</div>
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+  </body>
 </html>
